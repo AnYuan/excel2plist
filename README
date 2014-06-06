@@ -1,14 +1,12 @@
-使用前需要安装xlrd，方法
-进入xlrd-0.9.3文件夹，执行
-sudo python setup.py install
-即可安装完成
 
 使用方法
 将要转换的excel放到与excel2plist.py同一个文件夹，
-执行
-python excel2plist.py
-即可生成config.plist文件
+执行双击run
+可将生成的plist文件放到plists文件夹中。
 
-生成plist文件后，会删除掉excel文件
 
-建议安装完xlrd后，直接将excel2plist.py放到下载目录下使用
+注意，因为现在不知道如何在Automator中获取当前文件路径，所以是通过搜素excel2plist.py来获取路径的，
+所以要注意只保存一份该文件，否则路径有可能出错。
+
+
+可以根据自己的需要，修改excel2plist.py文件的内容
